@@ -1,0 +1,26 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="email" content="adamfusheini53@gmail.com">
+  <meta name="contact" content="0535892605">
+  <link rel="icon" type="image/png" href="../assets/logo.png" />
+  <title>Snake — Change-Agent Educators</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header style="padding:14px;text-align:center;background:#004aad;color:#fff">
+    <h2>Snake Game</h2>
+    <div><a href="../index.html" style="color:#fff;text-decoration:underline">Back to Home</a></div>
+  </header>
+  <main class="container" style="padding:18px;">
+    <section class="card">
+      <canvas id="snake-canvas" width="300" height="300"></canvas>
+      <div id="snake-score" style="text-align:center;margin-top:8px">Score: 0</div>
+      <div style="text-align:center;margin-top:8px">
+        <button onclick="startSnake()" class="btn">Start</button>
+        <button onclick="stopSnake()" class="btn secondary">Stop</button>
+      </div>
+    </section>
+  </main>
+  <script src="snake.js"></script>
+</html>
